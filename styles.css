@@ -1,0 +1,27 @@
+html {
+    scroll-behavior: smooth;
+}
+.hero-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://cdn.prod.website-files.com/65e695e2cb4a69511776987a/65f47bfd807333cb199805b8_65b69774ee8d85f7b902971c_Renai%2520(5).jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.loading {
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #10b981;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.gradient-text {
+    background: linear-gradient(135deg, #10b981, #3b82f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
